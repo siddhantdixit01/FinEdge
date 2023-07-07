@@ -1,7 +1,7 @@
 export default function Banner() {
     return (
         <>
-            <div className="py-36 w-full text-center">
+            <div className="pb-36 pt-72 w-full text-center">
                 <h1 className="text-7xl font-extrabold mb-4">FinEdge</h1>
                 <p className="text-xl text-orange-600">
                     Increase Efficiency | Protect Margins | Sell More Liquid.
