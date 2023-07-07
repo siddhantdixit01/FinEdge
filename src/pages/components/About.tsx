@@ -3,9 +3,9 @@ export default function About() {
         <>
             <div className="py-20 w-full m-auto">
                 <div className="flex justify-center">
-                    <div className="text-base w-2/5 text-justify mr-44 ml-28 pt-16">
+                    <div className="text-base w-2/5 text-justify mr-44 ml-28 pt-8">
                         <h1 className="text-4xl font-bold mb-10 text-orange-600" id="about">About Us</h1>
-                        FinEdge is a cutting-edge fintech startup dedicated to revolutionizing cross-border payments. Their vision is to enable seamless transactions for individuals and businesses, transcending geographical boundaries.
+                        Online money transfers have now become a medium to save oneself from any cash shortage related problems. A long list of requirements and legal formalities is no longer needed since the money can be transferred online through a digital wallet without any hassle. Hence, transferring money online has become easier than before with FinEdge . Just make instant money transfer with the 'Wallet to Bank' feature on FinEdge, from credit cards to any bank account through FinEdge's digital wallet. Now, transfer money from credit cards of ICICI, HDFC, Citibank, SBI, and more to any bank account, and the amount will reflect in the bank accounts instantly.
                     </div>
                     <div className="w-2/5">
                         <img src="images/about.jpg" alt="" className="w-3/4" />
