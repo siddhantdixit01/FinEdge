@@ -5,17 +5,17 @@ export default function Services() {
                 <h1 className="text-4xl font-bold mb-10" id="about">Services</h1>
                 <div className="flex justify-center">
                     <div className="text-base m-8">
-                        <img src="src/images/upi.jpg" alt="" className="h-60" />
+                        <img src="images/upi.jpg" alt="" className="h-60" />
                         <h1 className="text-xl font-bold mb-10 text-orange-600" id="about">Money Transfers</h1>
                         FinEdge is a cutting-edge fintech startup dedicated to revolutionizing cross-border payments. Their vision is to enable seamless transactions for individuals and businesses, transcending geographical boundaries.
                     </div>
                     <div className="text-base m-8">
-                        <img src="src/images/payment.jpg" alt="" className="h-60" />
+                        <img src="images/payment.jpg" alt="" className="h-60" />
                         <h1 className="text-xl font-bold mb-10 text-orange-600" id="about">Business Payments</h1>
                         FinEdge is a cutting-edge fintech startup dedicated to revolutionizing cross-border payments. Their vision is to enable seamless transactions for individuals and businesses, transcending geographical boundaries.
                     </div>
                     <div className="text-base m-8">
-                        <img src="src/images/tracking.jpg" alt="" className="h-60" />
+                        <img src="images/tracking.jpg" alt="" className="h-60" />
                         <h1 className="text-xl font-bold mb-10 text-orange-600" id="about">Real-time Payment Tracking</h1>
                         FinEdge is a cutting-edge fintech startup dedicated to revolutionizing cross-border payments. Their vision is to enable seamless transactions for individuals and businesses, transcending geographical boundaries.
                     </div>

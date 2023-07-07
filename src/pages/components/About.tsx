@@ -8,7 +8,7 @@ export default function About() {
                         FinEdge is a cutting-edge fintech startup dedicated to revolutionizing cross-border payments. Their vision is to enable seamless transactions for individuals and businesses, transcending geographical boundaries.
                     </div>
                     <div className="w-2/5">
-                        <img src="src/images/about.jpg" alt="" className="w-3/4" />
+                        <img src="images/about.jpg" alt="" className="w-3/4" />
                     </div>
                 </div>
             </div>
