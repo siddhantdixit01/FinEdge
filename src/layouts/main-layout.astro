@@ -1,0 +1,27 @@
+---
+import Nav from "../pages/components/Nav"
+import Banner from "../pages/components/Banner"
+import About from "../pages/components/About"
+import Services from "../pages/components/Services"
+import Contact from "../pages/components/Contact"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>FinEdge</title>
+	</head>
+	<body>
+        <main>
+            <Nav/>
+            <Banner/>
+            <About/>
+            <Services/>
+            <Contact/>
+            <slot/>
+        </main>
+	</body>
+</html>
