@@ -1,41 +1,6 @@
 import React, { useState } from "react";
 
-const FORM_ENDPOINT = "/";
-
 const Contact = () => {
-  const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const inputs = e.target.elements;
-    const data = {};
-
-    for (let i = 0; i < inputs.length; i++) {
-      if (inputs[i].name) {
-        data[inputs[i].name] = inputs[i].value;
-      }
-    }
-
-    fetch(FORM_ENDPOINT, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Form response was not ok');
-        }
-
-        setSubmitted(true);
-      })
-      .catch((err) => {
-        e.target.submit();
-      });
-  };
-
   return (
     <>
         <div className="py-20 text-center bg-black text-white" id="contact">
@@ -45,9 +10,8 @@ const Contact = () => {
                 </div>
                 <div className="text-base md:w-2/6 w-10/12 text-justify md:mr-44 md:ml-28 m-auto pt-8">
                     <form className=" m-auto"
-                    action={FORM_ENDPOINT}
-                    onSubmit={handleSubmit}
-                    method="POST"
+                    action="/"
+                    method="GET"
                     >
                         <div className="mb-3 pt-3">
                             <input
