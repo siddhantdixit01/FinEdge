@@ -3,7 +3,7 @@ export default function Services() {
         <>
             <div className="py-20 w-full m-auto text-justify" id="services">
                 <h1 className="text-5xl font-bold mb-10 text-center" id="about">Services</h1>
-                <div className="md:flex w-full">
+                <div className="md:flex w-full m-auto md:w-11/12">
                     <div className="shadow-md text-base m-8 rounded-lg pb-14">
                         <img src="images/upi.jpg" alt="" className="h-60 w-full rounded-lg" />
                         <div className="  px-3">
