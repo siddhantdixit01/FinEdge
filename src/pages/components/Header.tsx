@@ -12,10 +12,10 @@ const Header = () => {
                 <div className='font-bold text-2xl cursor-pointer flex items-center md:gap-1'>
                     <span>FinEdge</span>
                 </div>
-                <ul className="flex items-center pb-0 bg-white left-0 w-auto pl-0">
+                <ul className="flex justify-center md:justify-normal pb-0 bg-white left-0 md:w-auto w-full pl-0">
                     {
                         Links.map((link) => (
-                        <li className='ml-8 mt-4 md:my-0 font-semibold'>
+                        <li className='mx-4 md:mx-6 mt-4 md:my-0 font-semibold'>
                             <a href={link.link} className='text-gray-800 hover:text-orange-400 duration-500'>{link.name}</a>
                         </li>))
                     }
