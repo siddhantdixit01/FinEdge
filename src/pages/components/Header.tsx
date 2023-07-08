@@ -1,9 +1,9 @@
 const Header = () => {
     let Links =[
         {name:"Home",link:"#home"},
-        {name:"About Us",link:"#about"},
+        {name:"About",link:"#about"},
         {name:"Services",link:"#services"},
-        {name:"Contact Us",link:"#contact"},
+        {name:"Contact",link:"#contact"},
     ];
 
     return (
