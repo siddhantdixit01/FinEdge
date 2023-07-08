@@ -3,7 +3,7 @@ import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/
 
 const Header = () => {
     let Links =[
-        {name:"Home",link:"/"},
+        {name:"Home",link:"#home"},
         {name:"About Us",link:"#about"},
         {name:"Services",link:"#services"},
         {name:"Contact Us",link:"#contact"},
@@ -11,7 +11,7 @@ const Header = () => {
       let [open, setOpen] =useState(false);
 
     return (
-        <div className='shadow-md w-11/12 fixed top-0'>
+        <div className='shadow-md w-full fixed top-0'>
             <div className='md:flex items-center justify-between bg-white py-4 md:px-16 px-16'>
                 <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
                     <span>FinEdge</span>
